@@ -1,13 +1,10 @@
 #!/bin/bash
-#set default shell to zsh
-zsh --version
-chsh -s /bin/zsh
 
 #install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #install others such as go
-brew install go
+brew install go zsh zsh-completions
 mkdir -p ~/go/bin
 
 # install and setup antibody and terminal notifier
@@ -20,6 +17,10 @@ brew tap sambadevi/powerlevel9k
 brew install powerlevel9k
 brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
+
+#set default shell to zsh
+zsh --version
+chsh -s $(which zsh)
 
 # merge our zshrc contents if one already exists, otherwise just copy it over
 if [ -f ~/.zshrc ]; then
