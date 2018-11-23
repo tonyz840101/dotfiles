@@ -1,20 +1,19 @@
 #!/bin/bash
-
 #set default shell to zsh
-# zsh --version
-# chsh -s /bin/zsh
+zsh --version
+chsh -s /bin/zsh
 
 #install homebrew
-# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #install others such as go
-# brew install go
-#mkdir -p ~/go/bin
+brew install go
+mkdir -p ~/go/bin
 
 # install and setup antibody and terminal notifier
-# brew install getantibody/tap/antibody terminal-notifier
-# cp .zsh_plugins.txt ~/.zsh_plugins.txt
-# antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
+brew install getantibody/tap/antibody terminal-notifier
+cp .zsh_plugins.txt ~/.zsh_plugins.txt
+antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 
 # install powerlevel9k and nerdfonts
 brew tap sambadevi/powerlevel9k
@@ -30,3 +29,7 @@ else
     echo "===Copying .zshrc File"
     cp .zshrc ~/.zshrc
 fi
+
+echo "!! Terminals Must Now Be set to 'MesloLGM Nerd Font' in order to properly display Powerline fonts for Powerlevel9K"
+echo ""
+echo "!! VS Code settings.json must be copied over once vscode is installed!"
