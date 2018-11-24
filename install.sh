@@ -16,7 +16,7 @@ antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 brew tap sambadevi/powerlevel9k
 brew install powerlevel9k
 brew tap caskroom/fonts
-brew cask install font-hack-nerd-font
+brew cask install font-meslo-nerd-font
 
 #set default shell to zsh
 zsh --version
