@@ -1,9 +1,13 @@
 {
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.formatOnSave": true,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.shell.osx": "zsh",
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
-    "workbench.startupEditor": "newUntitledFile",
+    "go.testFlags": [
+        "-v"
+    ],
 }
