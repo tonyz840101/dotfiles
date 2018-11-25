@@ -3,7 +3,7 @@
 #install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-#install others such as go
+#install base packages
 brew install go zsh zsh-completions
 mkdir -p ~/go/bin
 
