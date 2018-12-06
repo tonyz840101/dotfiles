@@ -1,14 +1,17 @@
 #!/bin/bash
 
-#install homebrew
+# install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-#install base packages
-brew install go zsh zsh-completions
+# install base packages
+brew install go zsh zsh-completions kubectx
 mkdir -p ~/go/bin
 
+# install golang debugger
+go get -u github.com/derekparker/delve/cmd/dlv
+
 # install and setup antibody and terminal notifier
-brew install getantibody/tap/antibody terminal-notifier
+brew install getantibody/tap/antibody terminal-notifier 
 cp .zsh_plugins.txt ~/.zsh_plugins.txt
 antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 
@@ -18,16 +21,16 @@ brew install powerlevel9k
 brew tap caskroom/fonts
 brew cask install font-meslo-nerd-font
 
-#set default shell to zsh
+# set default shell to zsh
 zsh --version
 chsh -s $(which zsh)
 
 # merge our zshrc contents if one already exists, otherwise just copy it over
 if [ -f ~/.zshrc ]; then
-    echo "===Merging .zshrc Files==="
+    echo "=== Merging .zshrc Files (MIGHT REQUIRE MANUAL CLEANUP!)==="
     cat .zshrc | cat - ~/.zshrc > temp && rm ~/.zshrc && mv temp ~/.zshrc
 else
-    echo "===Copying .zshrc File"
+    echo "=== Copying .zshrc File ==="
     cp .zshrc ~/.zshrc
 fi
 
