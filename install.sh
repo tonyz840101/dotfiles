@@ -34,6 +34,12 @@ else
     cp .zshrc ~/.zshrc
 fi
 
+# git settings/aliases
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.com commit
+git config --global alias.st status
+
 echo "!! Terminals Must Now Be set to 'MesloLGM Nerd Font' in order to properly display Powerline fonts for Powerlevel9K"
 echo ""
 echo "!! VS Code settings.json must be copied over once vscode is installed!"
