@@ -4,7 +4,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install base packages
-brew install go zsh zsh-completions kubectx
+brew install go zsh zsh-completions kubectx hub
 mkdir -p ~/go/bin
 
 # install golang debugger
