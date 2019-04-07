@@ -4,6 +4,9 @@
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
+    "editor.rulers": [
+        150
+    ],
     "go.testFlags": [
         "-v"
     ],
