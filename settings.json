@@ -7,7 +7,13 @@
     "editor.rulers": [
         150
     ],
+    "editor.largeFileOptimizations": false,
+    "editor.formatOnSave": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "window.zoomLevel": 0,
+    "rust-client.channel": "stable",
     "go.testFlags": [
         "-v"
-    ],
+    ]
 }
