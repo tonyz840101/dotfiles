@@ -4,9 +4,11 @@ These are my dotfiles...
 ```
 ./install.sh
 ```
- 
+
+# Post Install Setup 
 - Set terminal font to one of the Nerd Font types (recommending "MesloLGM Nerd Font")
-- Copy over settings.json to also have the terminal working in VSCode.
+- iTerm2 needs to set /usr/local/zsh on startup
+- http://tgmerritt.github.io/jekyll/update/2015/06/23/option-arrow-in-iterm2.html 
 
 # Optional Post Install Steps
 - https://code.visualstudio.com/docs/setup/mac to add ```code``` command to terminals

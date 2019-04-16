@@ -59,6 +59,4 @@ git config --global alias.com commit
 git config --global alias.st status
 git config --global credential.helper 'cache --timeout 604800'
 
-echo "!! Terminals Must Now Be set to 'MesloLGM Nerd Font' in order to properly display Powerline fonts for Powerlevel9K"
-echo ""
-echo "!! VSCode settings.json must be copied over!"
+echo "!! Terminal Apps need 'MesloLGM Nerd Font' in order to properly display Powerline Fonts"
