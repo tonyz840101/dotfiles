@@ -27,6 +27,7 @@ brew install zsh zsh-completions kubectx hub shfmt go
 brew install getantibody/tap/antibody
 cp .zsh_plugins.txt ~/.zsh_plugins.txt
 antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
+antibody update
 
 # install powerlevel9k and nerdfonts
 brew tap sambadevi/powerlevel9k
