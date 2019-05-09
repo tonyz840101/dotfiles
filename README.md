@@ -13,3 +13,7 @@ These are my dotfiles...
 # Optional Post Install Steps
 - https://code.visualstudio.com/docs/setup/mac to add ```code``` command to terminals
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
+
+
+# Todo
+- make backups of .zshrc if one exists

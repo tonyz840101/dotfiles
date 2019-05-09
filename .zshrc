@@ -8,6 +8,9 @@ export ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrus
 source ~/.zsh_plugins.sh
 source ~/.cargo/env
 
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+
 # aliases
 alias git=hub
 

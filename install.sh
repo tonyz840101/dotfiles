@@ -22,6 +22,7 @@ rustup target add wasm32-unknown-unknown
 
 # install environment tools and languages
 brew install zsh zsh-completions kubectx hub shfmt go
+brew cask install google-cloud-sdk
 
 # install and setup antibody
 brew install getantibody/tap/antibody
