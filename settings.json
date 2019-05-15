@@ -14,6 +14,7 @@
     "telemetry.enableCrashReporter": false,
     "window.zoomLevel": 0,
     "rust-client.channel": "stable",
+    "rust-client.goto_def_racer_fallback": true,
     "go.testFlags": [
         "-v"
     ]
