@@ -9,6 +9,7 @@
     ],
     "editor.largeFileOptimizations": false,
     "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
     "workbench.startupEditor": "readme",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
