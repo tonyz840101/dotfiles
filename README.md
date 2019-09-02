@@ -14,6 +14,8 @@ These are my dotfiles...
 - https://code.visualstudio.com/docs/setup/mac to add ```code``` command to terminals
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
 
+# Divvy
+- https://mizage.com/divvy/
 
 # Todo
 - make backups of .zshrc if one exists
