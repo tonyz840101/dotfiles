@@ -15,10 +15,12 @@ These are my dotfiles...
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
 
 # Git password setup
-- ```cat ~/.gitconfig``` check how the password is kept
+- ```cat ~/.gitconfig``` check how the password is kept.   
 delete
-```[credential]
-	helper = cache --timeout 604800```
+```
+[credential]
+	helper = cache --timeout 604800
+```
 - change store apporch with ```git config --global credential.helper osxkeychain```
 - regenerate token
 
