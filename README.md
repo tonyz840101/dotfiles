@@ -14,6 +14,14 @@ These are my dotfiles...
 - https://code.visualstudio.com/docs/setup/mac to add ```code``` command to terminals
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
 
+# Git password setup
+- ```cat ~/.gitconfig``` check how the password is kept
+delete
+```[credential]
+	helper = cache --timeout 604800```
+- change store apporch with ```git config --global credential.helper osxkeychain```
+- regenerate token
+
 # Divvy
 - https://mizage.com/divvy/
 
