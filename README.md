@@ -21,7 +21,7 @@ delete
 [credential]
 	helper = cache --timeout 604800
 ```
-- change store apporch with ```git config --global credential.helper osxkeychain```
+- change store apporch through ```git config --global credential.helper osxkeychain```
 - regenerate token
 
 # Divvy
