@@ -37,6 +37,7 @@ brew tap caskroom/fonts
 brew cask install font-meslo-nerd-font
 brew cask install iterm2
 brew cask install visual-studio-code
+brew install just
 
 # copy vscode settings
 mkdir -p ~/Library/Application\ Support/Code/User

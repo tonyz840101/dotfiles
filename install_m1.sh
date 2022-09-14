@@ -40,6 +40,7 @@ brew tap homebrew/cask-fonts
 brew install --case font-meslo-lg-nerd-font
 brew install --case iterm2
 brew install --case visual-studio-code
+brew install just
 
 # copy vscode settings
 mkdir -p ~/Library/Application\ Support/Code/User
