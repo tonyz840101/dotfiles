@@ -65,4 +65,8 @@ git config --global alias.com commit
 git config --global alias.st status
 git config --global credential.helper osxkeychain
 
+cargo install --git https://github.com/paritytech/cachepot
+
+cp ./cargo_config.toml ~/.cargo/config.toml
+
 echo "!! Terminal Apps need 'MesloLGM Nerd Font' in order to properly display Powerline Fonts"

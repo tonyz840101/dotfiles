@@ -18,8 +18,6 @@
     ],
     "go.useLanguageServer": true,
     "git.autofetch": true,
-    "workbench.colorTheme": "Horizon Bold",
-    "workbench.iconTheme": "material-icon-theme",
     "diffEditor.ignoreTrimWhitespace": false,
     "rust-analyzer.checkOnSave.overrideCommand": null,
     "editor.minimap.enabled": false,
@@ -152,5 +150,7 @@
     "rust-analyzer.runnables.command": null,
     "rust-analyzer.cargo.buildScripts.overrideCommand": null,
     "rust-analyzer.inlayHints.chainingHints.enable": false,
-    "rust-analyzer.inlayHints.closingBraceHints.enable": false
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "workbench.colorTheme": "Horizon Italic",
+    "workbench.iconTheme": "material-icon-theme"
 }
