@@ -40,7 +40,6 @@ brew tap homebrew/cask-fonts
 brew install --case font-meslo-lg-nerd-font
 brew install --case iterm2
 brew install --case visual-studio-code
-brew install just
 
 # copy vscode settings
 mkdir -p ~/Library/Application\ Support/Code/User
@@ -67,6 +66,14 @@ git config --global credential.helper osxkeychain
 
 cargo install --git https://github.com/paritytech/cachepot
 
-cp ./cargo_config.toml ~/.cargo/config.toml
+printf "[build]\nrustc-wrapper = \"/Users/$USER/.cargo/bin/cachepot\"" > ~/.cargo/config.toml
+# cp ./cargo_config.toml ~/.cargo/config.toml
+
+# useful tools
+brew install just
+brew install postgresql
+curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.arm64
+chmod +x cloud_sql_proxy
+sudo mv ./cloud_sql_proxy /usr/local/bin/cloud_sql_proxy
 
 echo "!! Terminal Apps need 'MesloLGM Nerd Font' in order to properly display Powerline Fonts"
