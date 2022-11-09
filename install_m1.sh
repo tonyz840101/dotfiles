@@ -76,4 +76,8 @@ curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.ar
 chmod +x cloud_sql_proxy
 sudo mv ./cloud_sql_proxy /usr/local/bin/cloud_sql_proxy
 
+# zsh plugin
+brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
+
 echo "!! Terminal Apps need 'MesloLGM Nerd Font' in order to properly display Powerline Fonts"

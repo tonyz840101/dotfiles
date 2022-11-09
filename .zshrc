@@ -1,4 +1,4 @@
-##### INSTALLED BY github.com/dt665m/dotfiles #####
+##### INSTALLED BY github.com/tonyz840101/dotfiles #####
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin:$GOROOT/bin:/usr/local/bin
@@ -10,6 +10,8 @@ source ~/.cargo/env
 
 source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+source '/opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh'
+source '/opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh'
 
 # aliases
 alias git=hub
@@ -36,4 +38,4 @@ source /opt/homebrew/opt/powerlevel9k/powerlevel9k.zsh-theme
 SAVEHIST=50
 HISTFILE=~/.zsh_history
 
-##### INSTALLED BY github.com/dt665m/dotfiles #####
+##### INSTALLED BY github.com/tonyz840101/dotfiles #####
